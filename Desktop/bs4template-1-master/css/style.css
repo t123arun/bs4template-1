@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Times New Roman', Times, serif !important;
+}
+
+
+/* *---------------NAVBAR-------------------* */
+
+.nav-color {
+    background-color: rgb(53, 127, 150);
+}
+
+.top-category{
+    background: rgba(151, 186, 184, 0.611);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.card-text.second{
+    display: block;
+}
+.card{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 12px 14px 56px 1px;
+}
+.card-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid rgb(21, 109, 105);
+}
+.card-text{
+    display: none;
+}
+
+.card-img-top{
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 0px rgb(21, 109, 105);
+}
+
+.d-container{
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.link-btn{
+   margin-top: 4rem;
+    padding:20px;
+    background-color: rgb(204, 203, 203);
+    text-align: center;
+}
+.more{
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+    padding: 5px;
+    align-items: center;
+    border-bottom: 4px solid white;
+}
+.footer-tab{
+    padding:0px auto;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.category{
+    font-size: 32px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(216, 211, 211) ;
+    padding: 20px;
+}
+nav>a.navbar-brand {
+    font-weight: 600;
+    font-size: 32px !important;
+    font-family: 'Roboto' !important;
+    color: rgb(255, 255, 255)!important;
+}
+
+.nav-item {
+    font-size: 22px!important;
+    font-weight: 400;
+}
+
+.nav-item:hover {}
+
+.navbar-collapse {
+    flex-grow: 0!important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
+    font-size: 25px;
+}
+
+.logo-img {
+    border-radius: 50%;
+    box-shadow: -2px 2px 15px 2px white;
+    padding-right: 5px;
+}
+
+
+/* * *---------------NAVBAR-----(END)--------------*  */
+
+.cover-back {
+    background-color: wheat;
+}
+
+.cover-content {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    position: relative;
+}
+
+
+/* Style the search field */
+
+.cover-content input[type=text] {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    border-radius: 30px 0 0 30px;
+    text-align: center;
+}
+
+.cover-content input[type=text]:hover {
+    background: #c1ecfda2;
+}
+
+.cover-content input[type=text]:active {
+    border: 1px dashed rgb(53, 127, 150);
+}
+
+
+/* Style the submit button */
+
+.cover-content button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: rgb(10, 30, 43);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(33, 96, 148);
+}
+
+.cover-content button:hover {
+    background: #bbb;
+}
+
+.search-btn {
+    font-weight: 700;
+    color: white;
+    border-radius: 0 30px 30px 0;
+}
